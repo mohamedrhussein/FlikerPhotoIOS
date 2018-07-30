@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53F969EA210FB71E00BAEBDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F969E9210FB71E00BAEBDE /* AppDelegate.m */; };
+		53F969ED210FB71E00BAEBDE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F969EC210FB71E00BAEBDE /* ViewController.m */; };
+		53F969F0210FB71E00BAEBDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53F969EE210FB71E00BAEBDE /* Main.storyboard */; };
+		53F969F2210FB71E00BAEBDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53F969F1210FB71E00BAEBDE /* Assets.xcassets */; };
+		53F969F5210FB71E00BAEBDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53F969F3210FB71E00BAEBDE /* LaunchScreen.storyboard */; };
+		53F969F8210FB71E00BAEBDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F969F7210FB71E00BAEBDE /* main.m */; };
+		53F96A02210FB71E00BAEBDE /* FlikerPhotoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F96A01210FB71E00BAEBDE /* FlikerPhotoTests.m */; };
+		53F96A0D210FB71E00BAEBDE /* FlikerPhotoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F96A0C210FB71E00BAEBDE /* FlikerPhotoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53F969FE210FB71E00BAEBDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53F969DD210FB71E00BAEBDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53F969E4210FB71E00BAEBDE;
+			remoteInfo = FlikerPhoto;
+		};
+		53F96A09210FB71E00BAEBDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53F969DD210FB71E00BAEBDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53F969E4210FB71E00BAEBDE;
+			remoteInfo = FlikerPhoto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		53F969E5210FB71E00BAEBDE /* FlikerPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlikerPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53F969E8210FB71E00BAEBDE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		53F969E9210FB71E00BAEBDE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		53F969EB210FB71E00BAEBDE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		53F969EC210FB71E00BAEBDE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		53F969EF210FB71E00BAEBDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53F969F1210FB71E00BAEBDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53F969F4210FB71E00BAEBDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53F969F6210FB71E00BAEBDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53F969F7210FB71E00BAEBDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53F969FD210FB71E00BAEBDE /* FlikerPhotoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlikerPhotoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53F96A01210FB71E00BAEBDE /* FlikerPhotoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlikerPhotoTests.m; sourceTree = "<group>"; };
+		53F96A03210FB71E00BAEBDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53F96A08210FB71E00BAEBDE /* FlikerPhotoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlikerPhotoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53F96A0C210FB71E00BAEBDE /* FlikerPhotoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlikerPhotoUITests.m; sourceTree = "<group>"; };
+		53F96A0E210FB71E00BAEBDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53F969E2210FB71E00BAEBDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53F969FA210FB71E00BAEBDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53F96A05210FB71E00BAEBDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53F969DC210FB71E00BAEBDE = {
+			isa = PBXGroup;
+			children = (
+				53F969E7210FB71E00BAEBDE /* FlikerPhoto */,
+				53F96A00210FB71E00BAEBDE /* FlikerPhotoTests */,
+				53F96A0B210FB71E00BAEBDE /* FlikerPhotoUITests */,
+				53F969E6210FB71E00BAEBDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53F969E6210FB71E00BAEBDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53F969E5210FB71E00BAEBDE /* FlikerPhoto.app */,
+				53F969FD210FB71E00BAEBDE /* FlikerPhotoTests.xctest */,
+				53F96A08210FB71E00BAEBDE /* FlikerPhotoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53F969E7210FB71E00BAEBDE /* FlikerPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				53F969E8210FB71E00BAEBDE /* AppDelegate.h */,
+				53F969E9210FB71E00BAEBDE /* AppDelegate.m */,
+				53F969EB210FB71E00BAEBDE /* ViewController.h */,
+				53F969EC210FB71E00BAEBDE /* ViewController.m */,
+				53F969EE210FB71E00BAEBDE /* Main.storyboard */,
+				53F969F1210FB71E00BAEBDE /* Assets.xcassets */,
+				53F969F3210FB71E00BAEBDE /* LaunchScreen.storyboard */,
+				53F969F6210FB71E00BAEBDE /* Info.plist */,
+				53F969F7210FB71E00BAEBDE /* main.m */,
+			);
+			path = FlikerPhoto;
+			sourceTree = "<group>";
+		};
+		53F96A00210FB71E00BAEBDE /* FlikerPhotoTests */ = {
+			isa = PBXGroup;
+			children = (
+				53F96A01210FB71E00BAEBDE /* FlikerPhotoTests.m */,
+				53F96A03210FB71E00BAEBDE /* Info.plist */,
+			);
+			path = FlikerPhotoTests;
+			sourceTree = "<group>";
+		};
+		53F96A0B210FB71E00BAEBDE /* FlikerPhotoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				53F96A0C210FB71E00BAEBDE /* FlikerPhotoUITests.m */,
+				53F96A0E210FB71E00BAEBDE /* Info.plist */,
+			);
+			path = FlikerPhotoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53F969E4210FB71E00BAEBDE /* FlikerPhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53F96A11210FB71E00BAEBDE /* Build configuration list for PBXNativeTarget "FlikerPhoto" */;
+			buildPhases = (
+				53F969E1210FB71E00BAEBDE /* Sources */,
+				53F969E2210FB71E00BAEBDE /* Frameworks */,
+				53F969E3210FB71E00BAEBDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlikerPhoto;
+			productName = FlikerPhoto;
+			productReference = 53F969E5210FB71E00BAEBDE /* FlikerPhoto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53F969FC210FB71E00BAEBDE /* FlikerPhotoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53F96A14210FB71E00BAEBDE /* Build configuration list for PBXNativeTarget "FlikerPhotoTests" */;
+			buildPhases = (
+				53F969F9210FB71E00BAEBDE /* Sources */,
+				53F969FA210FB71E00BAEBDE /* Frameworks */,
+				53F969FB210FB71E00BAEBDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53F969FF210FB71E00BAEBDE /* PBXTargetDependency */,
+			);
+			name = FlikerPhotoTests;
+			productName = FlikerPhotoTests;
+			productReference = 53F969FD210FB71E00BAEBDE /* FlikerPhotoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		53F96A07210FB71E00BAEBDE /* FlikerPhotoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53F96A17210FB71E00BAEBDE /* Build configuration list for PBXNativeTarget "FlikerPhotoUITests" */;
+			buildPhases = (
+				53F96A04210FB71E00BAEBDE /* Sources */,
+				53F96A05210FB71E00BAEBDE /* Frameworks */,
+				53F96A06210FB71E00BAEBDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53F96A0A210FB71E00BAEBDE /* PBXTargetDependency */,
+			);
+			name = FlikerPhotoUITests;
+			productName = FlikerPhotoUITests;
+			productReference = 53F96A08210FB71E00BAEBDE /* FlikerPhotoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53F969DD210FB71E00BAEBDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Mohamed Rabie";
+				TargetAttributes = {
+					53F969E4210FB71E00BAEBDE = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					53F969FC210FB71E00BAEBDE = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 53F969E4210FB71E00BAEBDE;
+					};
+					53F96A07210FB71E00BAEBDE = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 53F969E4210FB71E00BAEBDE;
+					};
+				};
+			};
+			buildConfigurationList = 53F969E0210FB71E00BAEBDE /* Build configuration list for PBXProject "FlikerPhoto" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53F969DC210FB71E00BAEBDE;
+			productRefGroup = 53F969E6210FB71E00BAEBDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53F969E4210FB71E00BAEBDE /* FlikerPhoto */,
+				53F969FC210FB71E00BAEBDE /* FlikerPhotoTests */,
+				53F96A07210FB71E00BAEBDE /* FlikerPhotoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53F969E3210FB71E00BAEBDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F969F5210FB71E00BAEBDE /* LaunchScreen.storyboard in Resources */,
+				53F969F2210FB71E00BAEBDE /* Assets.xcassets in Resources */,
+				53F969F0210FB71E00BAEBDE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53F969FB210FB71E00BAEBDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53F96A06210FB71E00BAEBDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53F969E1210FB71E00BAEBDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F969ED210FB71E00BAEBDE /* ViewController.m in Sources */,
+				53F969F8210FB71E00BAEBDE /* main.m in Sources */,
+				53F969EA210FB71E00BAEBDE /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53F969F9210FB71E00BAEBDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F96A02210FB71E00BAEBDE /* FlikerPhotoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53F96A04210FB71E00BAEBDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F96A0D210FB71E00BAEBDE /* FlikerPhotoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53F969FF210FB71E00BAEBDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53F969E4210FB71E00BAEBDE /* FlikerPhoto */;
+			targetProxy = 53F969FE210FB71E00BAEBDE /* PBXContainerItemProxy */;
+		};
+		53F96A0A210FB71E00BAEBDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53F969E4210FB71E00BAEBDE /* FlikerPhoto */;
+			targetProxy = 53F96A09210FB71E00BAEBDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		53F969EE210FB71E00BAEBDE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53F969EF210FB71E00BAEBDE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53F969F3210FB71E00BAEBDE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53F969F4210FB71E00BAEBDE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53F96A0F210FB71E00BAEBDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		53F96A10210FB71E00BAEBDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53F96A12210FB71E00BAEBDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlikerPhoto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mohamedrabie.FlikerPhoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53F96A13210FB71E00BAEBDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlikerPhoto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mohamedrabie.FlikerPhoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		53F96A15210FB71E00BAEBDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlikerPhotoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mohamedrabie.FlikerPhotoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlikerPhoto.app/FlikerPhoto";
+			};
+			name = Debug;
+		};
+		53F96A16210FB71E00BAEBDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlikerPhotoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mohamedrabie.FlikerPhotoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlikerPhoto.app/FlikerPhoto";
+			};
+			name = Release;
+		};
+		53F96A18210FB71E00BAEBDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlikerPhotoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mohamedrabie.FlikerPhotoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlikerPhoto;
+			};
+			name = Debug;
+		};
+		53F96A19210FB71E00BAEBDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlikerPhotoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mohamedrabie.FlikerPhotoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlikerPhoto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53F969E0210FB71E00BAEBDE /* Build configuration list for PBXProject "FlikerPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53F96A0F210FB71E00BAEBDE /* Debug */,
+				53F96A10210FB71E00BAEBDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53F96A11210FB71E00BAEBDE /* Build configuration list for PBXNativeTarget "FlikerPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53F96A12210FB71E00BAEBDE /* Debug */,
+				53F96A13210FB71E00BAEBDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53F96A14210FB71E00BAEBDE /* Build configuration list for PBXNativeTarget "FlikerPhotoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53F96A15210FB71E00BAEBDE /* Debug */,
+				53F96A16210FB71E00BAEBDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53F96A17210FB71E00BAEBDE /* Build configuration list for PBXNativeTarget "FlikerPhotoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53F96A18210FB71E00BAEBDE /* Debug */,
+				53F96A19210FB71E00BAEBDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53F969DD210FB71E00BAEBDE /* Project object */;
+}
