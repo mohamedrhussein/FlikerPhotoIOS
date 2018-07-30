@@ -15,4 +15,13 @@ Requirements:
 Tools User:  
 - Xcode 9
 - language objective C 
+- Deployment Target 11.0
+
+Project structure
+-Delegate files
+-info.plist
+-view controller
+-models
+-support files
+-networking
          
