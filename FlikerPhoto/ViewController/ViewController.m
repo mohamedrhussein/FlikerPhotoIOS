@@ -70,6 +70,7 @@ NSArray *tableData;
         NSLog(@"segue");
         
         NSIndexPath *indexPath = [self.tableView indexPathForCell:sender];
+        //send data to second view
         DetailsViewController *second = segue.destinationViewController;        
     }
 }
