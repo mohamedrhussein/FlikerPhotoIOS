@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53DBC52D2110F2AB00D5FFF9 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DBC52C2110F2AB00D5FFF9 /* DetailsViewController.m */; };
+		53DBC53F2110FB3D00D5FFF9 /* ImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DBC53E2110FB3D00D5FFF9 /* ImageTableViewCell.m */; };
 		53F969EA210FB71E00BAEBDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F969E9210FB71E00BAEBDE /* AppDelegate.m */; };
 		53F969ED210FB71E00BAEBDE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F969EC210FB71E00BAEBDE /* ViewController.m */; };
 		53F969F0210FB71E00BAEBDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53F969EE210FB71E00BAEBDE /* Main.storyboard */; };
@@ -15,7 +17,6 @@
 		53F969F8210FB71E00BAEBDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F969F7210FB71E00BAEBDE /* main.m */; };
 		53F96A02210FB71E00BAEBDE /* FlikerPhotoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F96A01210FB71E00BAEBDE /* FlikerPhotoTests.m */; };
 		53F96A0D210FB71E00BAEBDE /* FlikerPhotoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F96A0C210FB71E00BAEBDE /* FlikerPhotoUITests.m */; };
-		53F96A1C210FBE7900BAEBDE /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F96A1B210FBE7900BAEBDE /* DetailsViewController.m */; };
 		53F96A22210FBF1A00BAEBDE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53F96A21210FBF1A00BAEBDE /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		53DBC52B2110F2AB00D5FFF9 /* DetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		53DBC52C2110F2AB00D5FFF9 /* DetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		53DBC52E2110F6CD00D5FFF9 /* UIKit+AFNetworking */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "UIKit+AFNetworking"; sourceTree = "<group>"; };
+		53DBC52F2110F6CD00D5FFF9 /* AFNetworking */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AFNetworking; sourceTree = "<group>"; };
+		53DBC5302110F6EB00D5FFF9 /* SDWebImage */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SDWebImage; sourceTree = "<group>"; };
+		53DBC5312110F6EB00D5FFF9 /* WebImage */ = {isa = PBXFileReference; lastKnownFileType = folder; path = WebImage; sourceTree = "<group>"; };
+		53DBC5332110F70A00D5FFF9 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		53DBC5342110F70A00D5FFF9 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		53DBC5352110F70A00D5FFF9 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		53DBC5362110F70A00D5FFF9 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		53DBC5372110F70A00D5FFF9 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		53DBC5382110F70A00D5FFF9 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		53DBC5392110F70A00D5FFF9 /* SVProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		53DBC53A2110F70A00D5FFF9 /* SVProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		53DBC53B2110F70A00D5FFF9 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		53DBC53C2110F70A00D5FFF9 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		53DBC53D2110FB3D00D5FFF9 /* ImageTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageTableViewCell.h; sourceTree = "<group>"; };
+		53DBC53E2110FB3D00D5FFF9 /* ImageTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageTableViewCell.m; sourceTree = "<group>"; };
 		53F969E5210FB71E00BAEBDE /* FlikerPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlikerPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53F969E8210FB71E00BAEBDE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		53F969E9210FB71E00BAEBDE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,8 +72,6 @@
 		53F96A08210FB71E00BAEBDE /* FlikerPhotoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlikerPhotoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53F96A0C210FB71E00BAEBDE /* FlikerPhotoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlikerPhotoUITests.m; sourceTree = "<group>"; };
 		53F96A0E210FB71E00BAEBDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		53F96A1A210FBE7900BAEBDE /* DetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
-		53F96A1B210FBE7900BAEBDE /* DetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
 		53F96A21210FBF1A00BAEBDE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,6 +100,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53DBC5322110F70A00D5FFF9 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				53DBC5332110F70A00D5FFF9 /* SVIndefiniteAnimatedView.h */,
+				53DBC5342110F70A00D5FFF9 /* SVIndefiniteAnimatedView.m */,
+				53DBC5352110F70A00D5FFF9 /* SVProgressAnimatedView.h */,
+				53DBC5362110F70A00D5FFF9 /* SVProgressAnimatedView.m */,
+				53DBC5372110F70A00D5FFF9 /* SVProgressHUD-Prefix.pch */,
+				53DBC5382110F70A00D5FFF9 /* SVProgressHUD.bundle */,
+				53DBC5392110F70A00D5FFF9 /* SVProgressHUD.h */,
+				53DBC53A2110F70A00D5FFF9 /* SVProgressHUD.m */,
+				53DBC53B2110F70A00D5FFF9 /* SVRadialGradientLayer.h */,
+				53DBC53C2110F70A00D5FFF9 /* SVRadialGradientLayer.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		53DBC5402110FB4C00D5FFF9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				53DBC53D2110FB3D00D5FFF9 /* ImageTableViewCell.h */,
+				53DBC53E2110FB3D00D5FFF9 /* ImageTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		53F969DC210FB71E00BAEBDE = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +153,7 @@
 				53F969E8210FB71E00BAEBDE /* AppDelegate.h */,
 				53F969E9210FB71E00BAEBDE /* AppDelegate.m */,
 				53F969F6210FB71E00BAEBDE /* Info.plist */,
+				53F969EE210FB71E00BAEBDE /* Main.storyboard */,
 				53F96A1E210FBE9A00BAEBDE /* ViewController */,
 				53F96A20210FBEB100BAEBDE /* Models */,
 				53F96A1F210FBEA600BAEBDE /* SupportFiles */,
@@ -139,6 +183,8 @@
 		53F96A1D210FBE8C00BAEBDE /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				53DBC52F2110F6CD00D5FFF9 /* AFNetworking */,
+				53DBC52E2110F6CD00D5FFF9 /* UIKit+AFNetworking */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -148,8 +194,9 @@
 			children = (
 				53F969EB210FB71E00BAEBDE /* ViewController.h */,
 				53F969EC210FB71E00BAEBDE /* ViewController.m */,
-				53F96A1A210FBE7900BAEBDE /* DetailsViewController.h */,
-				53F96A1B210FBE7900BAEBDE /* DetailsViewController.m */,
+				53DBC52B2110F2AB00D5FFF9 /* DetailsViewController.h */,
+				53DBC52C2110F2AB00D5FFF9 /* DetailsViewController.m */,
+				53DBC5402110FB4C00D5FFF9 /* Cell */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -157,10 +204,12 @@
 		53F96A1F210FBEA600BAEBDE /* SupportFiles */ = {
 			isa = PBXGroup;
 			children = (
-				53F969EE210FB71E00BAEBDE /* Main.storyboard */,
 				53F969F3210FB71E00BAEBDE /* LaunchScreen.storyboard */,
 				53F969F1210FB71E00BAEBDE /* Assets.xcassets */,
 				53F969F7210FB71E00BAEBDE /* main.m */,
+				53DBC5322110F70A00D5FFF9 /* SVProgressHUD */,
+				53DBC5302110F6EB00D5FFF9 /* SDWebImage */,
+				53DBC5312110F6EB00D5FFF9 /* WebImage */,
 			);
 			path = SupportFiles;
 			sourceTree = "<group>";
@@ -308,8 +357,9 @@
 			files = (
 				53F969ED210FB71E00BAEBDE /* ViewController.m in Sources */,
 				53F969F8210FB71E00BAEBDE /* main.m in Sources */,
+				53DBC53F2110FB3D00D5FFF9 /* ImageTableViewCell.m in Sources */,
 				53F969EA210FB71E00BAEBDE /* AppDelegate.m in Sources */,
-				53F96A1C210FBE7900BAEBDE /* DetailsViewController.m in Sources */,
+				53DBC52D2110F2AB00D5FFF9 /* DetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

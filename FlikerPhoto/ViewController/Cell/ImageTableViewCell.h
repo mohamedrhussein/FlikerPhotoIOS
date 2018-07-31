@@ -1,5 +1,5 @@
 //
-//  DetailsViewController.h
+//  ImageTableViewCell.h
 //  FlikerPhoto
 //
 //  Created by Mohamed Rabie on 7/31/18.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DetailsViewController : UIViewController
+@interface ImageTableViewCell : UITableViewCell
 
 @end
