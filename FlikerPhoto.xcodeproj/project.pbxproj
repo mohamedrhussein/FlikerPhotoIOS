@@ -41,6 +41,8 @@
 		5321BCC621126AFC00E3A1EB /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
 		5321BCC72112711300E3A1EB /* Internet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Internet.m; sourceTree = "<group>"; };
 		5321BCC82112711300E3A1EB /* Internet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Internet.h; sourceTree = "<group>"; };
+		5321BCCB21127AA800E3A1EB /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		5321BCCC21127AA800E3A1EB /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		53DBC52B2110F2AB00D5FFF9 /* DetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
 		53DBC52C2110F2AB00D5FFF9 /* DetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
 		53DBC52E2110F6CD00D5FFF9 /* UIKit+AFNetworking */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "UIKit+AFNetworking"; sourceTree = "<group>"; };
@@ -405,6 +407,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				53F969EF210FB71E00BAEBDE /* Base */,
+				5321BCCB21127AA800E3A1EB /* ar */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -413,6 +416,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				53F969F4210FB71E00BAEBDE /* Base */,
+				5321BCCC21127AA800E3A1EB /* ar */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -424,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -479,6 +484,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

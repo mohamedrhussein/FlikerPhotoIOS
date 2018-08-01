@@ -1,0 +1,15 @@
+
+/* Class = "UISearchBar"; placeholder = "Search Fliker Photo "; ObjectID = "ECc-eY-jhy"; */
+"ECc-eY-jhy.placeholder" = "Search Fliker Photo ";
+
+/* Class = "UILabel"; text = "Image Title"; ObjectID = "J1D-Sa-NHu"; */
+"J1D-Sa-NHu.text" = "Image Title";
+
+/* Class = "UILabel"; text = "Image Description"; ObjectID = "NdY-Ot-JVJ"; */
+"NdY-Ot-JVJ.text" = "Image Description";
+
+/* Class = "UILabel"; text = "Image Title"; ObjectID = "dvV-Ag-G9l"; */
+"dvV-Ag-G9l.text" = "Image Title";
+
+/* Class = "UIButton"; normalTitle = "back"; ObjectID = "q3a-Ef-hrN"; */
+"q3a-Ef-hrN.normalTitle" = "back";
