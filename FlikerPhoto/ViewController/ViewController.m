@@ -9,6 +9,9 @@
 #import "ViewController.h"
 #import "DetailsViewController.h"
 #import "ImageTableViewCell.h"
+#import "Constant.h"
+#import "AFNetworking.h"
+#import "AFHTTPRequestOperation"
 
 @interface ViewController ()
 
@@ -94,8 +97,25 @@ NSString *searchText;
 
 - (void) getDataFromApi {
     NSDictionary *response;
+    AFHTTPClient *httpClient = [[AFHTTPClient alloc] initWithBaseURL:[NSURL URLWithString:FlikerApi]];
+    NSMutableURLRequest *request = [httpClient requestWithMethod:@"GET"
+                                                            path:FlikerApi
+                                                      parameters:nil];
     
+    AFHTTPRequestOperation *operation = [[AFHTTPRequestOperation alloc] initWithRequest:request];
     
+    [httpClient registerHTTPOperationClass:[AFHTTPRequestOperation class]];
+    
+    [operation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
+        
+        NSLog(@"Response: %@", [[NSString alloc] initWithData:responseObject encoding:NSUTF8StringEncoding]);
+        
+        response = [[NSString alloc] initWithData:responseObject encoding:NSUTF8StringEncoding];
+        
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        NSLog(@"Error: %@", error);
+    }];
+    [operation start];
     
     if (response != nil) {
             dict= [response objectForKey:@"photo"];
@@ -112,10 +132,28 @@ NSString *searchText;
 //get data from fliker API
 
 - (void) searchImages {
-    
+    NSDictionary *response;
  //   NSString restOfUrl = @"&format=json&nojsoncallback=1";
- //
-   NSDictionary *response ;
+    AFHTTPClient *httpClient = [[AFHTTPClient alloc] initWithBaseURL:[NSURL URLWithString:SearchFlikerApi];
+    NSMutableURLRequest *request = [httpClient requestWithMethod:@"GET"
+                                                            path:SearchFlikerApi
+                                                      parameters:nil];
+    
+    AFHTTPRequestOperation *operation = [[AFHTTPRequestOperation alloc] initWithRequest:request];
+    
+    [httpClient registerHTTPOperationClass:[AFHTTPRequestOperation class]];
+    
+    [operation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
+        
+        NSLog(@"Response: %@", [[NSString alloc] initWithData:responseObject encoding:NSUTF8StringEncoding]);
+        
+        response = [[NSString alloc] initWithData:responseObject encoding:NSUTF8StringEncoding];
+        
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        NSLog(@"Error: %@", error);
+    }];
+    [operation start];
+
     if (response != nil) {
         dict= [response objectForKey:@"photo"];
         
