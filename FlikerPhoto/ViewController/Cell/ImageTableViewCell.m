@@ -10,7 +10,7 @@
 
 @implementation ImageTableViewCell
 
-
+@synthesize imgFliker,lblTitle;
 
 - (void)awakeFromNib {
     [super awakeFromNib];

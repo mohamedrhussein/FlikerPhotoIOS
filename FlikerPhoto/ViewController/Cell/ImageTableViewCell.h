@@ -10,4 +10,7 @@
 
 @interface ImageTableViewCell : UITableViewCell
 
+@property (weak, nonatomic) IBOutlet UIImageView *imgFliker;
+@property (weak, nonatomic) IBOutlet UILabel *lblTitle;
+
 @end

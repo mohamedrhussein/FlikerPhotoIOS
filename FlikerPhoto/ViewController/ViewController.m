@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "DetailsViewController.h"
+#import "ImageTableViewCell.h"
 
 @interface ViewController ()
 
@@ -16,9 +17,9 @@
 
 @end
 
-@implementation ViewController
+NSArray *dict;
 
-NSArray *tableData;
+@implementation ViewController
 
 
 - (void)viewDidLoad {
@@ -26,12 +27,11 @@ NSArray *tableData;
     _tableView.delegate = self;
     _tableView.dataSource = self;
     // Initialize table data
-    tableData = [NSArray arrayWithObjects:@"IOS", @"Android",@"Testing", nil];
+    //tableData = [NSArray arrayWithObjects:@"IOS", @"Android",@"Testing", nil];
     // Do any additional setup after loading the view, typically from a nib.
+    
     // mohamed work call func to get data
-    
-    
-    
+     [self getDataFromApi];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -45,7 +45,7 @@ NSArray *tableData;
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 
-    return [tableData count];
+    return dict.count;;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -55,6 +55,10 @@ NSArray *tableData;
         if (cell == nil) {
             cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
         }
+    cell.lblTitle.text = [[dict objectAtIndex:indexPath.row ] valueForKey:@"title"];
+    //rounded image
+    cell.imgFliker.layer.cornerRadius = cell.imgFliker.frame.size.height / 2;
+    [cell.imgFliker sd_setImageWithURL:[NSURL URLWithString:[[dict objectAtIndex:indexPath.row ] valueForKey:@"photo"]] placeholderImage:nil];
     return cell;
 }
 
@@ -71,13 +75,58 @@ NSArray *tableData;
         
         NSIndexPath *indexPath = [self.tableView indexPathForCell:sender];
         //send data to second view
-        DetailsViewController *second = segue.destinationViewController;        
+        DetailsViewController *second = segue.destinationViewController;
+        second.ImageID = indexPath.row;
+        
     }
+}
+
+NSString *searchText;
+- (BOOL)searchBar:(UISearchBar *)searchBar shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text
+{
+    searchText = [searchBar.text stringByReplacingCharactersInRange:range withString:text];
+    NSLog(@"String:%@",searchText);
+    [self searchImages];
+    return YES;
 }
 
 //get data from fliker API
 
+- (void) getDataFromApi {
+    NSDictionary *response;
+    
+    
+    
+    if (response != nil) {
+            dict= [response objectForKey:@"photo"];
+            
+            [_tableView reloadData];
+        }else{
 
+       // error
+            NSLog(@"Error");
+    }
+    
+}
+
+//get data from fliker API
+
+- (void) searchImages {
+    
+ //   NSString restOfUrl = @"&format=json&nojsoncallback=1";
+ //
+   NSDictionary *response ;
+    if (response != nil) {
+        dict= [response objectForKey:@"photo"];
+        
+        [_tableView reloadData];
+    }else{
+        
+        // error
+        NSLog(@"Error");
+    }
+    
+}
 
 
 

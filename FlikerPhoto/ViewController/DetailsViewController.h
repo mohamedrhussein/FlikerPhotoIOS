@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface DetailsViewController : UIViewController
-
+@property (nonatomic,strong) NSInteger *ImageID;
 @end

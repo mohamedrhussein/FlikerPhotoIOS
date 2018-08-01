@@ -38,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5321BCC621126AFC00E3A1EB /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		5321BCC72112711300E3A1EB /* Internet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Internet.m; sourceTree = "<group>"; };
+		5321BCC82112711300E3A1EB /* Internet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Internet.h; sourceTree = "<group>"; };
 		53DBC52B2110F2AB00D5FFF9 /* DetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
 		53DBC52C2110F2AB00D5FFF9 /* DetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
 		53DBC52E2110F6CD00D5FFF9 /* UIKit+AFNetworking */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "UIKit+AFNetworking"; sourceTree = "<group>"; };
@@ -183,6 +186,8 @@
 		53F96A1D210FBE8C00BAEBDE /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				5321BCC82112711300E3A1EB /* Internet.h */,
+				5321BCC72112711300E3A1EB /* Internet.m */,
 				53DBC52F2110F6CD00D5FFF9 /* AFNetworking */,
 				53DBC52E2110F6CD00D5FFF9 /* UIKit+AFNetworking */,
 			);
@@ -204,6 +209,7 @@
 		53F96A1F210FBEA600BAEBDE /* SupportFiles */ = {
 			isa = PBXGroup;
 			children = (
+				5321BCC621126AFC00E3A1EB /* Constant.h */,
 				53F969F3210FB71E00BAEBDE /* LaunchScreen.storyboard */,
 				53F969F1210FB71E00BAEBDE /* Assets.xcassets */,
 				53F969F7210FB71E00BAEBDE /* main.m */,

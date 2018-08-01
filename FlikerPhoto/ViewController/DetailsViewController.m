@@ -17,9 +17,10 @@
 
 @implementation DetailsViewController
 
+
+@synthesize title;
+@synthesize description;
 NSString *imageUrl;
-NSString *title;
-NSString *description;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
